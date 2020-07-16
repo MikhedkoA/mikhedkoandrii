@@ -1,0 +1,15 @@
+
+html{
+    background-color: rgb(210, 210, 247);
+}
+a{
+    /*text-decoration: none;*/
+    color: black;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+form{
+    text-align: center;
+}
