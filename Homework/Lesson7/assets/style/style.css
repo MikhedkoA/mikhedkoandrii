@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Opensansreg; /* Имя шрифта */
+    src: url(../fonts/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+   @font-face {
+    font-family: Opensanssemibold; /* Имя шрифта */
+    src: url(../fonts/OpenSans-Semibold.ttf); /* Путь к файлу со шрифтом */
+   }
+body{
+    margin: 0;
+    bottom: 0;
+}
+.banner {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    font-size: 33px;
+    background-image: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.15)), url(../image/banner_photo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.banner #p1 {
+    position: absolute;
+    color: #fff;
+    bottom: 200px;
+    left: 32%;
+    font-family: Opensansreg;
+}
+
+.banner #p2 {
+    position: absolute;
+    color: #fff;
+    bottom: 150px;
+    left: 45%;
+    font-family: Opensansreg;
+}
+
+button {
+    position: absolute;
+    font-family: Opensanssemibold;
+    font-size: 16px;
+    background-color: rgb(153, 197, 10);
+    color: white;
+    border-radius: 15px;
+    border-color: white;
+    width: 254px;
+    height: 73px;
+    bottom: 10%;
+    left: 42%;
+}
