@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    position: relative;
+    width: 50%;
+    height: 305px;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.banner , #id1{
+    background-color: #e2f8ff;
+}
+
+.banner , #id2{
+    background-color: #f5f9eb;
+}
+
+.banner .banner_logo{
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    padding-left: 140px;
+}
+
+.banner .banner_logo img , #logo1{
+    width: 130px ;
+}
+
+.banner .banner_logo img , #logo2{
+    width: 120px ;
+}
+
+.banner .banner_info{
+    display: inline-block; 
+    position: relative;
+    width: 50%;
+    padding-left: 60px;
+}
+
+.banner .banner_info .banner_info_header{
+    font-family: 'open_sanssemibold';
+    color: #515151;
+    font-size: 23.2px;
+    padding-top: 40px;
+}
+
+.banner .banner_info .banner_info_text{
+    font-family: 'open_sansregular';
+    color: #515151;
+    font-size: 17.2px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.banner .banner_info .banner_info_button{
+    font-family: 'open_sanssemibold';
+    font-size: 17px;
+    width: 187px;
+    height: 51px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.banner .banner_info .banner_info_button a{
+    color: #fafcf2;
+    text-decoration: none;
+}
+
+
+.banner .banner_info .banner_info_button , #btn1{
+    background-color: #26a6d1;
+}
+
+.banner .banner_info .banner_info_button , #btn2{
+    background-color: #add136;
+}
+
