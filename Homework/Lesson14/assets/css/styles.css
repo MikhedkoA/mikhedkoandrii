@@ -1,0 +1,106 @@
+@font-face{
+    font-family: "Georgia";
+  src: url("/assets/fonts/Georgia.ttf") format("truetype"),
+}
+@font-face{
+    font-family: "Times";
+  src: url("/assets/fonts/Times\ New\ Roman.ttf") format("truetype"),
+}
+
+body{
+    font-family: 'arialregular';
+    background-color: #f6f6f6;
+}
+.navbar-brand{
+    height: auto;
+    margin-right: 150px;
+    text-align: center;
+}
+
+.container-fluid{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.nav-brand__span1{
+    font-size: 20px;
+    font-family: "Georgia";
+    color: #545454;
+}
+.nav-brand__span2{
+    font-size: 10px;
+}
+
+.active__link li:hover{
+    border-bottom: 1px solid orange;
+}
+
+.active__link li .active{
+    border-bottom: 1px solid orange;
+    color: #545454;
+}
+
+.user__container{
+
+    font-family: "Georgia";
+    font-size: 35px;
+    width: 100%;
+}
+.animal-card{
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-radius: 25px;
+    margin: 15px 18px;
+    padding: 10px 15px;
+    font-family: "Georgia";
+    color: #545454;
+    font-size: 17px;
+}
+
+.my-button{
+    background-color: white;
+    border: 1px solid orange;
+    border-radius: 75px;
+    background-image: none;
+    color: black;
+    font-size: 12px;
+}
+
+.active__button{
+    background-color: #f1cdb3;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #42332c;
+}
+
+.main__f{
+    font-family: "Georgia";
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.sub__f{
+    color: #f1cdb3;
+    font-family: "Georgia";
+    font-size: 16px;
+}
+
+.my_toolbar{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.my__btn{
+    background-color: white;
+    border: 1px solid orange;
+}
+
+.active_t_btn{
+    background-color: #ebaa7b;
+}
